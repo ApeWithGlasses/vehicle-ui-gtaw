@@ -96,22 +96,14 @@ body {
 }
 
 .vehicle--engine-status {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
   color: var(--success);
 }
 
 .vehicle--insurance-status {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
   color: var(--success);
 }
 
-.vehicle--location {
+.vehicle--engine-status, .vehicle--insurance-status, .vehicle--location {
   display: flex;
   justify-content: center;
   align-items: center;
