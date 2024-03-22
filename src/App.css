@@ -18,6 +18,18 @@ body {
   --accent: #F29F05;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--background);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 5px;
+}
+
+
 .vehicle-list-menu {
   font-family: 'Roboto', sans-serif;
   width: 650px;
@@ -68,6 +80,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  overflow-y: auto;
 }
 
 .vehicle-list-menu .vehicle-list tr {
