@@ -39,7 +39,7 @@ function App() {
             </td>
             <td>
               <div className='vehicle--engine-status'>
-                <img src='https://res.cloudinary.com/dtux0itp7/image/upload/v1711045441/engine_cdse9u.png' alt='Engine Status'></img>
+                <img src='https://res.cloudinary.com/dtux0itp7/image/upload/v1714488838/engine_cdse9u_vgm0aq.png' alt='Engine Status'></img>
                 <p>Good</p>
               </div>
             </td>
