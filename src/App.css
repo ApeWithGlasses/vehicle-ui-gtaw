@@ -43,18 +43,24 @@ body {
   gap: 15px;
 }
 
-.vehicle-list-menu h2 {
+.vehicle-menu-bar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.vehicle-list-menu .vehicle-menu-bar h2 {
   color: var(--accent);
   font-weight: 600;
 }
 
-.vehicle-list-menu form {
-  display: flex;
-  position: relative;
-  align-self: flex-start;
+.vehicle-list-menu .vehicle-menu-bar form {
+  justify-self: flex-start;
 }
 
-.vehicle-list-menu form .search-bar {
+.vehicle-list-menu .vehicle-menu-bar form .search-bar {
   border-radius: 16px;
   border: none;
   background: var(--background);
@@ -63,12 +69,25 @@ body {
   padding: 7px 8px;
 }
 
-.vehicle-list-menu form .search-bar::placeholder {
+.vehicle-list-menu .vehicle-menu-bar form .search-bar::placeholder {
   color: var(--sub);
 }
 
-.vehicle-list-menu form .search-bar:focus {
-  outline: none;
+.vehicle-list-menu .vehicle-menu-bar form .search-bar:focus {
+  outline: 1px solid var(--accent);
+}
+
+.vehicle-list-menu .vehicle-menu-bar button {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #C91D1D;
+  font-family: 'Roboto', sans-serif;
+  justify-self: flex-end;
+}
+
+.vehicle-list-menu .vehicle-menu-bar button:hover {
+  background-color: rgb(158, 0, 0);
 }
 
 .vehicle-list-menu .vehicle-list {
@@ -87,7 +106,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px;
+  padding: 4px 0;
 }
 
 .vehicle-list-menu .vehicle-list tr td:nth-child(1) {
@@ -133,4 +152,8 @@ body {
 
 .vehicle--spawn-btn button:hover {
   background: rgb(170, 117, 13);
+}
+
+.has-scrollbar {
+  margin-right: 5px;
 }

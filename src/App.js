@@ -1,13 +1,33 @@
 import './App.css';
 
+function checkScrollbar() {
+  const element = document.querySelector('.vehicle-list');
+  let buttons = document.querySelectorAll('.vehicle--spawn-btn');
+  if (element.scrollHeight > element.clientHeight) {
+    buttons.forEach(button => button.classList.add('has-scrollbar'));
+  } else {
+    buttons.forEach(button => button.classList.remove('has-scrollbar'));
+  }
+}
+
+window.onload = function() {
+  checkScrollbar();
+  const observer = new MutationObserver(checkScrollbar);
+  const config = { childList: true, subtree: true };
+  observer.observe(document.querySelector('.vehicle-list'), config);
+}
+
 function App() {
   return (
     <div className="App">
       <div className="vehicle-list-menu">
-        <h2>Your Vehicles</h2>
-        <form>
-          <input type='search' placeholder='Search by model' className="search-bar"/>
-        </form>
+        <div className='vehicle-menu-bar'>
+          <form>
+            <input type='search' placeholder='Search by model' className="search-bar"/>
+          </form>
+          <h2>Your Vehicles</h2>
+          <button type='button' id='closeButton'>X</button>
+        </div>
         <table className="vehicle-list">
           <tr>
             <td>
