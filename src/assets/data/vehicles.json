@@ -1,0 +1,191 @@
+[
+    {
+        "Vehicle": "Zentorno",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 30,
+        "Spawned": true,
+        "Health": 750
+    },
+    {
+        "Vehicle": "Bati 801",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 0,
+        "Spawned": false,
+        "Health": 500
+    },
+    {
+        "Vehicle": "Sultan",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 20,
+        "Spawned": true,
+        "Health": 800
+    },
+    {
+        "Vehicle": "Faggio",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 0,
+        "Spawned": false,
+        "Health": 300
+    },
+    {
+        "Vehicle": "Buffalo",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 25,
+        "Spawned": true,
+        "Health": 900
+    },
+    {
+        "Vehicle": "Elegy RH8",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 0,
+        "Spawned": true,
+        "Health": 850
+    },
+    {
+        "Vehicle": "Manchez",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 15,
+        "Spawned": false,
+        "Health": 650
+    },
+    {
+        "Vehicle": "Comet",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 0,
+        "Spawned": false,
+        "Health": 950
+    },
+    {
+        "Vehicle": "Futo",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 25,
+        "Spawned": true,
+        "Health": 700
+    },
+    {
+        "Vehicle": "Baller",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 0,
+        "Spawned": true,
+        "Health": 1000
+    },
+    {
+        "Vehicle": "Schafter V12",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 35,
+        "Spawned": false,
+        "Health": 950
+    },
+    {
+        "Vehicle": "Sanchez",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 20,
+        "Spawned": true,
+        "Health": 600
+    },
+    {
+        "Vehicle": "T20",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 40,
+        "Spawned": true,
+        "Health": 1000
+    },
+    {
+        "Vehicle": "Infernus",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 35,
+        "Spawned": true,
+        "Health": 1000
+    },
+    {
+        "Vehicle": "Schlagen GT",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": null,
+        "Insurance": 30,
+        "Spawned": false,
+        "Health": 900
+    },
+    {
+        "Vehicle": "Elegy Retro Custom",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 30,
+        "Spawned": true,
+        "Health": 950
+    },
+    {
+        "Vehicle": "Sultan RS",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 30,
+        "Spawned": true,
+        "Health": 900
+    },
+    {
+        "Vehicle": "Faggio Mod",
+        "Plate": null,
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 15,
+        "Spawned": true,
+        "Health": 350
+    },
+    {
+        "Vehicle": "Bati 801RR",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 20,
+        "Spawned": false,
+        "Health": 550
+    },
+    {
+        "Vehicle": "Bati 801RR",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 20,
+        "Spawned": false,
+        "Health": 550
+    },
+    {
+        "Vehicle": "Bati 801RR",
+        "Plate": "123ABC",
+        "Impounded": null,
+        "Destroyed": "null",
+        "Insurance": 20,
+        "Spawned": false,
+        "Health": 550
+    }
+]

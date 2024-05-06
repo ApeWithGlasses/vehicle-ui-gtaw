@@ -16,6 +16,7 @@ body {
   --text: #FFFFFF;
   --success: #15BF40;
   --accent: #F29F05;
+  --red: #C91D1D;
 }
 
 ::-webkit-scrollbar {
@@ -27,6 +28,30 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: var(--accent);
   border-radius: 5px;
+}
+
+.btn--field {
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: var(--accent);
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.disabled {
+  background-color: #414144;
+  color: #8F8F8F;
+  cursor: auto;
+}
+
+.btn:not(.disabled):hover {
+  background-color: rgb(170, 117, 13);
 }
 
 
@@ -107,12 +132,23 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 4px 0;
+  gap: 3px;
+}
+
+.vehicle-list-menu .vehicle-list tr td {
+  width: 100%;
 }
 
 .vehicle-list-menu .vehicle-list tr td:nth-child(1) {
   display: flex;
   gap: 5px;
-  min-height: max-content;
+  width: 220px!important;
+  height: 55px;
+}
+
+.vehicle-list-menu .vehicle-list tr td:nth-child(5) div {
+  display: flex;
+  justify-content: end;
 }
 
 .vehicle-list-menu .vehicle-list tr td:nth-child(1) div {
@@ -123,19 +159,35 @@ body {
   gap: 7px;
 }
 
+.vehicle--name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 105px;
+}
+
 .vehicle-list-menu .vehicle-list tr td:nth-child(1) div .vehicle--plate {
   color: #8F8F8F;
 }
 
+.vehicle--engine-status svg {
+  width: 25px;
+  height: 20px;
+}
+
 .vehicle--engine-status {
-  color: var(--success);
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  justify-items: start;
+  align-items: center;
+  max-width: 90px;
 }
 
 .vehicle--insurance-status {
   color: var(--success);
 }
 
-.vehicle--engine-status, .vehicle--insurance-status, .vehicle--location {
+.vehicle--insurance-status, .vehicle--location {
   display: flex;
   justify-content: center;
   align-items: center;
