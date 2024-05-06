@@ -95,7 +95,13 @@ function App() {
    * @returns {string} The state of the insurance ('Expired' or 'Insured').
    */
   function getInsuranceState(insurance) {
-    return insurance <= 0 ? 'Expired' : 'Insured';
+    if (insurance <= 0) {
+      return 'Expired';
+    } else if (insurance <= 3) {
+      return 'Expiring';
+    } else {
+      return 'Insured';
+    }
   }
 
   /**
@@ -105,7 +111,11 @@ function App() {
    * @returns {string} The color corresponding to the insurance state.
    */
   function getInsuranceStateColor(insurance) {
-    return getColor(insurance, [{value: 0, color: '#C91D1D'}]);
+    return getColor(insurance, [
+      {value: 1, color: '#F29F05'},
+      {value: 3, color: '#F29F05'},
+      {value: 0, color: '#C91D1D'}
+    ]);
   }
   
   useEffect(() => {
